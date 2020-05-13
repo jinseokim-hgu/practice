@@ -1,2 +1,2 @@
 asdfasdf
-Merged.
+Merged
