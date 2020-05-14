@@ -1,2 +1,1 @@
-asdfasdf
-Merged
+#include <stdio.h>
