@@ -5,6 +5,6 @@
 void mk_randint(int n[], int first, int last, int size);
 
 int main(void){
-  
+  int numarray[100], i;
   return 0;
 }
