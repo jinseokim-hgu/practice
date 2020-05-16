@@ -10,5 +10,6 @@ int main(void){
   srand(time(0));
   printf("Enter first, last, size > ");
   scanf("%d %d %d", &f, &l, &s);
+  mk_randint(numarray,f,l,s);
   return 0;
 }
