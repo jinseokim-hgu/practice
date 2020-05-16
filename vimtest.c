@@ -9,5 +9,6 @@ int main(void){
   int f,l,s;
   srand(time(0));
   printf("Enter first, last, size > ");
+  scanf("%d %d %d", &f, &l, &s);
   return 0;
 }
