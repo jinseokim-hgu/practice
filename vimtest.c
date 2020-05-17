@@ -17,3 +17,6 @@ int main(void){
   printf("\n");
   return 0;
 }
+
+void mk_randint(int n[], int first, int last, int size){
+  
