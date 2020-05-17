@@ -11,5 +11,8 @@ int main(void){
   printf("Enter first, last, size > ");
   scanf("%d %d %d", &f, &l, &s);
   mk_randint(numarray,f,l,s);
+  for(int i=0; i<s; i++){
+    printf("%d ", numarray[i]);
+  }
   return 0;
 }
