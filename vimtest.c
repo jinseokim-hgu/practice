@@ -19,4 +19,4 @@ int main(void){
 }
 
 void mk_randint(int n[], int first, int last, int size){
-  
+  for(int i=0; i<size; i++){
