@@ -53,7 +53,7 @@ linkedlist_length (linkedlist_t * l)
 {
 	int len = 0 ;
 
-				node_t * curr = l->right ;
+	node_t * curr = l->right ;
 					while (curr != l) {
 									len += 1 ;
 											curr = curr->right ; 
