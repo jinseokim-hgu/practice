@@ -4,11 +4,10 @@
 #include <ctype.h>
 
 /* Linkedlist */
-
 struct node {
-			void * element ;
-				struct node * left ; 
-					struct node * right ;
+	void * element ;
+	struct node * left ; 
+	struct node * right ;
 } ;
 
 typedef struct term {
