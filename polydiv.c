@@ -34,18 +34,18 @@ linkedlist_alloc (int unit)
 void
 linkedlist_free (linkedlist_t * l)
 {
-			node_t * curr ;
-				node_t * next ;
+	node_t * curr ;
+	node_t * next ;
 
-					curr = l->right ;
-						while (curr != l) {
-										next = curr->right ;
-												free(curr->element) ;
-														free(curr) ;
-																curr = next ;
-																	}
-																		free(l->element) ;
-																			free(l) ;
+	curr = l->right ;
+	while (curr != l) {
+		next = curr->right ;
+		free(curr->element) ;
+		free(curr) ;
+		curr = next ;
+	}
+	free(l->element) ;
+	free(l) ;
 }
 
 int 
