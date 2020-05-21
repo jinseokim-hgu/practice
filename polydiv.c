@@ -21,14 +21,14 @@ typedef struct node linkedlist_t ;
 linkedlist_t * 
 linkedlist_alloc (int unit) 
 {
-			linkedlist_t * l = (linkedlist_t *) malloc(sizeof(linkedlist_t)) ;
-				l->left = l  ;	
-					l->right = l ;
-						l->element = malloc(sizeof(int)) ;
-							int * u = (int *) l->element ;
-								*u = unit ;
+	linkedlist_t * l = (linkedlist_t *) malloc(sizeof(linkedlist_t)) ;
+	l->left = l  ;	
+	l->right = l ;
+	l->element = malloc(sizeof(int)) ;
+	int * u = (int *) l->element ;
+	*u = unit ;
 
-									return l ;
+	return l ;
 }
 
 void
