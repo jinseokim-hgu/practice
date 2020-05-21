@@ -11,8 +11,8 @@ struct node {
 } ;
 
 typedef struct term {
-			int coef ;
-				int expo ;
+	int coef ;
+	int expo ;
 } term_t ;
 
 typedef struct node node_t ;
