@@ -56,9 +56,9 @@ linkedlist_length (linkedlist_t * l)
 	node_t * curr = l->right ;
 	while (curr != l) {
 		len += 1 ;
-											curr = curr->right ; 
-												}
-													return len ; 
+		curr = curr->right ; 
+	}
+	return len ; 
 }
 
 void 
