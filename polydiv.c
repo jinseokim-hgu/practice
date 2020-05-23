@@ -70,7 +70,7 @@ linkedlist_insert (node_t * left, void * e, int unit)
 
 	node_t * right = left->right ;
 
-							_new->left = left ;
+	_new->left = left ;
 								_new->right = right ;
 
 									left->right = _new ;
