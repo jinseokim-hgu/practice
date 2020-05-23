@@ -68,7 +68,7 @@ linkedlist_insert (node_t * left, void * e, int unit)
 	_new->element = malloc(unit) ;
 	memcpy(_new->element, e, unit) ;
 
-						node_t * right = left->right ;
+	node_t * right = left->right ;
 
 							_new->left = left ;
 								_new->right = right ;
