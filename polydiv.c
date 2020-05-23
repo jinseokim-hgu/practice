@@ -64,9 +64,9 @@ linkedlist_length (linkedlist_t * l)
 void 
 linkedlist_insert (node_t * left, void * e, int unit)
 {
-			node_t * _new = (node_t *) malloc(sizeof(node_t)) ;
-				_new->element = malloc(unit) ;
-					memcpy(_new->element, e, unit) ;
+	node_t * _new = (node_t *) malloc(sizeof(node_t)) ;
+	_new->element = malloc(unit) ;
+	memcpy(_new->element, e, unit) ;
 
 						node_t * right = left->right ;
 
