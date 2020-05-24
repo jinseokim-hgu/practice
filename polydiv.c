@@ -98,7 +98,7 @@ linkedlist_remove (linkedlist_t * l, node_t * n)
 	n->left->right = n->right ;
 	n->right->left = n->left ;
 
-										free(n->element) ;
+	free(n->element) ;
 											free(n) ;
 												return 0 ;
 }
