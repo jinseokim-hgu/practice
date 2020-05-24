@@ -92,7 +92,7 @@ linkedlist_insert_last (linkedlist_t * l, void * e)
 int
 linkedlist_remove (linkedlist_t * l, node_t * n)
 {
-			if (l->left == l)
+	if (l->left == l)
 							return 1 ;
 
 								n->left->right = n->right ;
