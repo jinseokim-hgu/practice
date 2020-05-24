@@ -100,7 +100,7 @@ linkedlist_remove (linkedlist_t * l, node_t * n)
 
 	free(n->element) ;
 	free(n) ;
-												return 0 ;
+	return 0 ;
 }
 
 int 
