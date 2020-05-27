@@ -109,7 +109,7 @@ linkedlist_remove_first (linkedlist_t * l, void * e)
 	if (l->right == l)
 		return 1 ;
 
-								memcpy(e, l->right->element, *((int *)(l->element))) ;
+	memcpy(e, l->right->element, *((int *)(l->element))) ;
 									linkedlist_remove(l, l->right) ;
 										return 0 ;
 }
