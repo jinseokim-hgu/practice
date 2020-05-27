@@ -118,7 +118,7 @@ int
 linkedlist_remove_last (linkedlist_t * l, void * e)
 {
 	if (l->left == l)
-							return 1 ;
+		return 1 ;
 
 								memcpy(e, l->left->element, *((int *)(l->element))) ;
 									linkedlist_remove(l, l->left) ;
