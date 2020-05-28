@@ -129,7 +129,7 @@ int
 linkedlist_get (linkedlist_t * l, int pos, void * e)
 {
 	if (pos < 0)
-							return 1 ;
+		return 1 ;
 
 								int unit = *((int *) l->element) ;
 									int i = 0 ;
