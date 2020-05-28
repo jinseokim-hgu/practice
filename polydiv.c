@@ -157,7 +157,7 @@ linkedlist_clone (linkedlist_t * orig)
 		linkedlist_get(orig, i, &clone_t);
 		linkedlist_insert_last(clone, &clone_t);
 	}
-																return clone;
+	return clone;
 }
 
 
