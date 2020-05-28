@@ -150,9 +150,9 @@ linkedlist_clone (linkedlist_t * orig)
 {
 	/* TODO */
 	linkedlist_t * clone;
-					clone=linkedlist_alloc(sizeof(term_t));
+	clone=linkedlist_alloc(sizeof(term_t));
 						
-							term_t * clone_t;
+	term_t * clone_t;
 								for(int i=0;i<linkedlist_length(orig);i++){
 												linkedlist_get(orig, i, &clone_t);
 														linkedlist_insert_last(clone, &clone_t);
