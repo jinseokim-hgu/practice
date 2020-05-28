@@ -153,10 +153,10 @@ linkedlist_clone (linkedlist_t * orig)
 	clone=linkedlist_alloc(sizeof(term_t));
 						
 	term_t * clone_t;
-								for(int i=0;i<linkedlist_length(orig);i++){
-												linkedlist_get(orig, i, &clone_t);
-														linkedlist_insert_last(clone, &clone_t);
-															}
+	for(int i=0;i<linkedlist_length(orig);i++){
+		linkedlist_get(orig, i, &clone_t);
+		linkedlist_insert_last(clone, &clone_t);
+	}
 																return clone;
 }
 
