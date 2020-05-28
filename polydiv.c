@@ -135,7 +135,7 @@ linkedlist_get (linkedlist_t * l, int pos, void * e)
 	int i = 0 ;
 	node_t * curr = l->right ;
 	while (i < pos && curr != l) {
-															curr = curr->right ;
+		curr = curr->right ;
 																	i += 1 ;
 																		}
 																			if (i != pos)
