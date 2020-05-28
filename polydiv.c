@@ -138,7 +138,7 @@ linkedlist_get (linkedlist_t * l, int pos, void * e)
 		curr = curr->right ;
 		i += 1 ;
 	}
-																			if (i != pos)
+	if (i != pos)
 																							return 1 ;
 
 																								memcpy(e, curr->element, unit) ;
