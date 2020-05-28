@@ -148,8 +148,8 @@ linkedlist_get (linkedlist_t * l, int pos, void * e)
 linkedlist_t *
 linkedlist_clone (linkedlist_t * orig)
 {
-			/* TODO */
-				linkedlist_t * clone;
+	/* TODO */
+	linkedlist_t * clone;
 					clone=linkedlist_alloc(sizeof(term_t));
 						
 							term_t * clone_t;
