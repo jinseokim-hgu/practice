@@ -168,7 +168,7 @@ typedef linkedlist_t polynomial ;
 polynomial *
 polynomial_alloc()
 {
-			return linkedlist_alloc(sizeof(term_t)) ;
+	return linkedlist_alloc(sizeof(term_t)) ;
 }
 
 void
