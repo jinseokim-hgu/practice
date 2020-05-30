@@ -174,7 +174,7 @@ polynomial_alloc()
 void
 polynomial_add_term(polynomial * p, term_t * n)
 {
-			if (n->coef == 0)
+	if (n->coef == 0)
 							return ;
 
 								node_t * curr = p->right ;
