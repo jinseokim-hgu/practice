@@ -187,8 +187,8 @@ polynomial_add_term(polynomial * p, term_t * n)
 			t->coef += n->coef ;
 			return ;
 		}
-																																				curr = curr->right ;
-																																					}
+		curr = curr->right ;
+	}
 																																						linkedlist_insert(curr->left, n, sizeof(term_t)) ;
 }
 
