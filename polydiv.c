@@ -189,7 +189,7 @@ polynomial_add_term(polynomial * p, term_t * n)
 		}
 		curr = curr->right ;
 	}
-																																						linkedlist_insert(curr->left, n, sizeof(term_t)) ;
+	linkedlist_insert(curr->left, n, sizeof(term_t)) ;
 }
 
 polynomial * 
