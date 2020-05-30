@@ -183,10 +183,10 @@ polynomial_add_term(polynomial * p, term_t * n)
 		if (n->expo > t->expo) {
 			break ;
 		}
-																								else if (n->expo == t->expo) {
-																													t->coef += n->coef ;
-																																return ;
-																																		}
+		else if (n->expo == t->expo) {
+			t->coef += n->coef ;
+			return ;
+		}
 																																				curr = curr->right ;
 																																					}
 																																						linkedlist_insert(curr->left, n, sizeof(term_t)) ;
