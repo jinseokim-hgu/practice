@@ -177,7 +177,7 @@ polynomial_add_term(polynomial * p, term_t * n)
 	if (n->coef == 0)
 		return ;
 
-								node_t * curr = p->right ;
+	node_t * curr = p->right ;
 									while (curr != p) {
 													term_t * t = (term_t *) curr->element ;
 															if (n->expo > t->expo) {
