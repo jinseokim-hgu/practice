@@ -205,9 +205,9 @@ polynomial_create (char * s)
 		if(s[i]=='('){
 			bracket=1;
 		}
-																					else if(isdigit(s[i]) && bracket==1){
-																										t.coef=s[i];
-																												}
+		else if(isdigit(s[i]) && bracket==1){
+			t.coef=s[i];
+		}
 																														else if(s[i]==')'){
 																																			bracket=0;
 																																					}
