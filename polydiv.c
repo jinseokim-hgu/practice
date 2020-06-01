@@ -196,7 +196,7 @@ polynomial *
 polynomial_create (char * s)
 {
 	/* TODO */
-				polynomial * p=polynomial_alloc();
+	polynomial * p=polynomial_alloc();
 					term_t t;
 
 						int i=0;
