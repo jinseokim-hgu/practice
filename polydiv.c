@@ -195,7 +195,7 @@ polynomial_add_term(polynomial * p, term_t * n)
 polynomial * 
 polynomial_create (char * s)
 {
-			/* TODO */
+	/* TODO */
 				polynomial * p=polynomial_alloc();
 					term_t t;
 
