@@ -200,7 +200,7 @@ polynomial_create (char * s)
 	term_t t;
 
 	int i=0;
-							int bracket=0;
+	int bracket=0;
 								while(s[i]!='\0'){
 												if(s[i]=='('){
 																	bracket=1;
