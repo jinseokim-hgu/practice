@@ -199,7 +199,7 @@ polynomial_create (char * s)
 	polynomial * p=polynomial_alloc();
 	term_t t;
 
-						int i=0;
+	int i=0;
 							int bracket=0;
 								while(s[i]!='\0'){
 												if(s[i]=='('){
