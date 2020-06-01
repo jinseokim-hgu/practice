@@ -201,10 +201,10 @@ polynomial_create (char * s)
 
 	int i=0;
 	int bracket=0;
-								while(s[i]!='\0'){
-												if(s[i]=='('){
-																	bracket=1;
-																			}
+	while(s[i]!='\0'){
+		if(s[i]=='('){
+			bracket=1;
+		}
 																					else if(isdigit(s[i]) && bracket==1){
 																										t.coef=s[i];
 																												}
