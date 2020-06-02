@@ -219,7 +219,7 @@ polynomial_create (char * s)
 		}
 		i+=1;
 	}
-																																																											return p;
+	return p;
 }
 
 void
