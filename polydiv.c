@@ -217,8 +217,8 @@ polynomial_create (char * s)
 		else if(s[i]=='+' || s[i+1]=='\0'){
 			polynomial_add_term(p, &t);
 		}
-																																																									i+=1;
-																																																										}
+		i+=1;
+	}
 																																																											return p;
 }
 
