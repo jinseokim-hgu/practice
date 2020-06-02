@@ -211,9 +211,9 @@ polynomial_create (char * s)
 		else if(s[i]==')'){
 			bracket=0;
 		}
-																																							else if(isdigit(s[i]) && bracket==0){
-																																												t.expo=s[i];
-																																														}
+		else if(isdigit(s[i]) && bracket==0){
+			t.expo=s[i];
+		}
 																																																else if(s[i]=='+' || s[i+1]=='\0'){
 																																																					polynomial_add_term(p, &t);
 																																																							}
