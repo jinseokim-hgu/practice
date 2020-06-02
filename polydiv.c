@@ -208,9 +208,9 @@ polynomial_create (char * s)
 		else if(isdigit(s[i]) && bracket==1){
 			t.coef=s[i];
 		}
-																														else if(s[i]==')'){
-																																			bracket=0;
-																																					}
+		else if(s[i]==')'){
+			bracket=0;
+		}
 																																							else if(isdigit(s[i]) && bracket==0){
 																																												t.expo=s[i];
 																																														}
