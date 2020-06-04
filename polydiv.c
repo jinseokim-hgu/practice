@@ -243,7 +243,7 @@ polynomial_print(polynomial * p)
 polynomial *
 polynomial_add (polynomial * p1, polynomial * p2)
 {
-			polynomial * r = linkedlist_alloc(sizeof(term_t)) ;
+	polynomial * r = linkedlist_alloc(sizeof(term_t)) ;
 
 				term_t t1, t2 ;
 					int i1 = 0 , i2 = 0 ;
