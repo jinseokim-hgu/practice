@@ -236,7 +236,7 @@ polynomial_print(polynomial * p)
 		curr = curr->right ;
 		if (curr != p)
 			printf(" + ") ;
-																									}
+	}
 																										printf("\n") ;
 }
 
