@@ -225,7 +225,7 @@ polynomial_create (char * s)
 void
 polynomial_print(polynomial * p)
 {
-			node_t * curr ;
+	node_t * curr ;
 
 				curr = p->right ;
 					while (curr != p) {	
