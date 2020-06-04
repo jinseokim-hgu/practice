@@ -228,14 +228,14 @@ polynomial_print(polynomial * p)
 	node_t * curr ;
 
 	curr = p->right ;
-					while (curr != p) {	
-									term_t * t ;
-											t = (term_t *) curr->element ;
-													printf("(%d) x^%d", t->coef, t->expo) ;
+	while (curr != p) {	
+		term_t * t ;
+		t = (term_t *) curr->element ;
+		printf("(%d) x^%d", t->coef, t->expo) ;
 															
-																	curr = curr->right ;
-																			if (curr != p)
-																								printf(" + ") ;
+		curr = curr->right ;
+		if (curr != p)
+			printf(" + ") ;
 																									}
 																										printf("\n") ;
 }
