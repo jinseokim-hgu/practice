@@ -227,7 +227,7 @@ polynomial_print(polynomial * p)
 {
 	node_t * curr ;
 
-				curr = p->right ;
+	curr = p->right ;
 					while (curr != p) {	
 									term_t * t ;
 											t = (term_t *) curr->element ;
