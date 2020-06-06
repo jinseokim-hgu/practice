@@ -279,7 +279,7 @@ polynomial_add (polynomial * p1, polynomial * p2)
 		polynomial_add_term(r, &t2) ;
 		i2 += 1 ;
 	}
-																																																																																		return r ;
+	return r ;
 }
 
 polynomial *
