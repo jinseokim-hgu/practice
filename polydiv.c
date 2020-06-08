@@ -299,11 +299,11 @@ polynomial_subt (polynomial * p1, polynomial * p2)
 			polynomial_add_term(r, &t1) ;
 			i1 += 1 ;
 		}
-																											else if (t2.expo > t1.expo) {
-																																t2.coef*=-1;
-																																			polynomial_add_term(r, &t2) ;
-																																						i2 += 1 ;
-																																								}
+		else if (t2.expo > t1.expo) {
+			t2.coef*=-1;
+			polynomial_add_term(r, &t2) ;
+			i2 += 1 ;
+		}
 																																										else /* t1->expo == t2->expo */ {
 																																															term_t t ;
 																																																		t.coef = t1.coef - t2.coef ;
