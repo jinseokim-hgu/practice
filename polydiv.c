@@ -318,12 +318,12 @@ polynomial_subt (polynomial * p1, polynomial * p2)
 		polynomial_add_term(r, &t1) ;
 		i1 += 1 ;
 	}
-																																																																												while (i2 < linkedlist_length(p2)) {
-																																																																																linkedlist_get(p2, i2, &t2) ;
-																																																																																		t2.coef*=-1;
-																																																																																				polynomial_add_term(r, &t2) ;
-																																																																																						i2 += 1 ;
-																																																																																							}
+	while (i2 < linkedlist_length(p2)) {
+		linkedlist_get(p2, i2, &t2) ;
+		t2.coef*=-1;
+		polynomial_add_term(r, &t2) ;
+		i2 += 1 ;
+	}
 																																																																																								return r ;
 }
 
