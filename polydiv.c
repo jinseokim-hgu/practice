@@ -304,15 +304,15 @@ polynomial_subt (polynomial * p1, polynomial * p2)
 			polynomial_add_term(r, &t2) ;
 			i2 += 1 ;
 		}
-																																										else /* t1->expo == t2->expo */ {
-																																															term_t t ;
-																																																		t.coef = t1.coef - t2.coef ;
-																																																					t.expo = t1.expo ;
-																																																								polynomial_add_term(r, &t) ;
-																																																											i1 += 1 ;
-																																																														i2 += 1 ;
-																																																																}
-																																																																	}
+		else /* t1->expo == t2->expo */ {
+			term_t t ;
+			t.coef = t1.coef - t2.coef ;
+			t.expo = t1.expo ;
+			polynomial_add_term(r, &t) ;
+			i1 += 1 ;
+			i2 += 1 ;
+		}
+	}
 																																																																		while (i1 < linkedlist_length(p1)) {
 																																																																						linkedlist_get(p1, i1, &t1) ;
 																																																																								polynomial_add_term(r, &t1) ;
