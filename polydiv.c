@@ -295,10 +295,10 @@ polynomial_subt (polynomial * p1, polynomial * p2)
 		linkedlist_get(p1, i1, &t1) ;
 		linkedlist_get(p2, i2, &t2) ;
 
-															if (t1.expo > t2.expo) {
-																				polynomial_add_term(r, &t1) ;
-																							i1 += 1 ;
-																									}
+		if (t1.expo > t2.expo) {
+			polynomial_add_term(r, &t1) ;
+			i1 += 1 ;
+		}
 																											else if (t2.expo > t1.expo) {
 																																t2.coef*=-1;
 																																			polynomial_add_term(r, &t2) ;
