@@ -285,8 +285,8 @@ polynomial_add (polynomial * p1, polynomial * p2)
 polynomial *
 polynomial_subt (polynomial * p1, polynomial * p2)
 {
-			/* TODO */
-				polynomial * r = linkedlist_alloc(sizeof(term_t)) ;
+	/* TODO */
+	polynomial * r = linkedlist_alloc(sizeof(term_t)) ;
 
 					term_t t1, t2 ;
 						int i1 = 0 , i2 = 0 ;
