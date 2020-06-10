@@ -355,12 +355,12 @@ polynomial_div (polynomial * dividend, polynomial * divisor,
 	/* TODO */
 	term_t remainder_t, divisor_t, dividend_t, quotient_t;
 
-					while(remainder_t.expo>divisor_t.expo){
-									linkedlist_get(dividend, 0, &dividend_t);
-											linkedlist_get(divisor, 0, &divisor_t);
-													quotient_t.coef=dividend_t.coef/divisor_t.coef;
-															quotient_t.expo=dividend_t.expo-divisor_t.expo;
-																	linkedlist_insert_last(*quotient, &quotient_t);
+	while(remainder_t.expo>divisor_t.expo){
+		linkedlist_get(dividend, 0, &dividend_t);
+		linkedlist_get(divisor, 0, &divisor_t);
+		quotient_t.coef=dividend_t.coef/divisor_t.coef;
+		quotient_t.expo=dividend_t.expo-divisor_t.expo;
+		linkedlist_insert_last(*quotient, &quotient_t);
 
 																			for(int i=0;i<linkedlist_length(divisor);i++){
 																								linkedlist_get(divisor, i, &divisor_t);
