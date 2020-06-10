@@ -336,10 +336,10 @@ polynomial_mult (polynomial * p1, polynomial * p2)
 
 	for (n1 = p1->right ; n1 != p1 ; n1 = n1->right) {
 		t1 = n1->element ;
-												for (n2 = p2->right ; n2 != p2 ; n2 = n2->right) {
-																	t2 = n2->element ;
+		for (n2 = p2->right ; n2 != p2 ; n2 = n2->right) {
+			t2 = n2->element ;
 
-																				term_t tr ;
+			term_t tr ;
 																							tr.coef = t1->coef * t2->coef ;
 																										tr.expo = t1->expo + t2->expo ;
 																													polynomial_add_term(pr, &tr) ;
