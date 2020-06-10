@@ -367,9 +367,9 @@ polynomial_div (polynomial * dividend, polynomial * divisor,
 			remainder_t.coef=divisor_t.coef*quotient_t.coef;
 			remainder_t.expo=divisor_t.expo*quotient_t.expo;
 			linkedlist_insert_last(*remainder, &remainder_t);
-																																			}
+		}
 
-																																					dividend=polynomial_subt(dividend, *remainder);
+		dividend=polynomial_subt(dividend, *remainder);
 
 																																							linkedlist_get(*remainder, 0, &remainder_t);
 																																									linkedlist_get(divisor, 0, &divisor_t);
