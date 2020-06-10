@@ -381,7 +381,7 @@ polynomial_div (polynomial * dividend, polynomial * divisor,
 int 
 main () 
 {
-			polynomial * dividend ;
+	polynomial * dividend ;
 				polynomial * divisor ;
 
 					polynomial * quotient ;
