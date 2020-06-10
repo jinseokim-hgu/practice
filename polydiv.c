@@ -352,8 +352,8 @@ void
 polynomial_div (polynomial * dividend, polynomial * divisor, 
 			    polynomial ** quotient, polynomial ** remainder)
 {
-			/* TODO */
-				term_t remainder_t, divisor_t, dividend_t, quotient_t;
+	/* TODO */
+	term_t remainder_t, divisor_t, dividend_t, quotient_t;
 
 					while(remainder_t.expo>divisor_t.expo){
 									linkedlist_get(dividend, 0, &dividend_t);
