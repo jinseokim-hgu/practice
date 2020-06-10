@@ -344,7 +344,7 @@ polynomial_mult (polynomial * p1, polynomial * p2)
 			tr.expo = t1->expo + t2->expo ;
 			polynomial_add_term(pr, &tr) ;
 		}
-																																}
+	}
 																																	return pr ;
 }
 
