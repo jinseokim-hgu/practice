@@ -371,9 +371,9 @@ polynomial_div (polynomial * dividend, polynomial * divisor,
 
 		dividend=polynomial_subt(dividend, *remainder);
 
-																																							linkedlist_get(*remainder, 0, &remainder_t);
-																																									linkedlist_get(divisor, 0, &divisor_t);
-																																										}
+		linkedlist_get(*remainder, 0, &remainder_t);
+		linkedlist_get(divisor, 0, &divisor_t);
+	}
 }
 
 /* Main */
