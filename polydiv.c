@@ -330,7 +330,7 @@ polynomial_subt (polynomial * p1, polynomial * p2)
 polynomial * 
 polynomial_mult (polynomial * p1, polynomial * p2)
 {
-			node_t * n1, * n2 ;
+	node_t * n1, * n2 ;
 				term_t * t1, * t2 ;
 					polynomial * pr = linkedlist_alloc(sizeof(term_t)) ;
 
