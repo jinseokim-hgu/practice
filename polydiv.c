@@ -382,7 +382,7 @@ int
 main () 
 {
 	polynomial * dividend ;
-				polynomial * divisor ;
+	polynomial * divisor ;
 
 					polynomial * quotient ;
 						polynomial * remainder ;
