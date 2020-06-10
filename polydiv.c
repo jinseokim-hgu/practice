@@ -362,11 +362,11 @@ polynomial_div (polynomial * dividend, polynomial * divisor,
 		quotient_t.expo=dividend_t.expo-divisor_t.expo;
 		linkedlist_insert_last(*quotient, &quotient_t);
 
-																			for(int i=0;i<linkedlist_length(divisor);i++){
-																								linkedlist_get(divisor, i, &divisor_t);
-																											remainder_t.coef=divisor_t.coef*quotient_t.coef;
-																														remainder_t.expo=divisor_t.expo*quotient_t.expo;
-																																	linkedlist_insert_last(*remainder, &remainder_t);
+		for(int i=0;i<linkedlist_length(divisor);i++){
+			linkedlist_get(divisor, i, &divisor_t);
+			remainder_t.coef=divisor_t.coef*quotient_t.coef;
+			remainder_t.expo=divisor_t.expo*quotient_t.expo;
+			linkedlist_insert_last(*remainder, &remainder_t);
 																																			}
 
 																																					dividend=polynomial_subt(dividend, *remainder);
