@@ -340,10 +340,10 @@ polynomial_mult (polynomial * p1, polynomial * p2)
 			t2 = n2->element ;
 
 			term_t tr ;
-																							tr.coef = t1->coef * t2->coef ;
-																										tr.expo = t1->expo + t2->expo ;
-																													polynomial_add_term(pr, &tr) ;
-																															}
+			tr.coef = t1->coef * t2->coef ;
+			tr.expo = t1->expo + t2->expo ;
+			polynomial_add_term(pr, &tr) ;
+		}
 																																}
 																																	return pr ;
 }
