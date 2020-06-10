@@ -331,7 +331,7 @@ polynomial *
 polynomial_mult (polynomial * p1, polynomial * p2)
 {
 	node_t * n1, * n2 ;
-				term_t * t1, * t2 ;
+	term_t * t1, * t2 ;
 					polynomial * pr = linkedlist_alloc(sizeof(term_t)) ;
 
 						for (n1 = p1->right ; n1 != p1 ; n1 = n1->right) {
