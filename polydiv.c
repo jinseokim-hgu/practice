@@ -345,7 +345,7 @@ polynomial_mult (polynomial * p1, polynomial * p2)
 			polynomial_add_term(pr, &tr) ;
 		}
 	}
-																																	return pr ;
+	return pr ;
 }
 
 void
